@@ -4,12 +4,12 @@ Module 5, Lesson 3
 # In `db_connection.py` please fill in credentials as needed.
 
 ## Code to run in assignment terminal:
-``
+```
 pip install mysql-connector-python
 python
 import mysql.connector
 exit()
-``
+```
 * Restart IDE *
 
 # Log into MySQL then:
