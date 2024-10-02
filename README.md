@@ -32,14 +32,14 @@ SELECT DATABASE();
 ``
 
 ## Once main.py is run, open up the CLI and execute the following:
-``
+```
 USE gym_database;
 SELECT * FROM Members;
 SELECT * FROM WorkoutSessions;
 SELECT COUNT(*) AS total_members FROM Members;
 SELECT COUNT(*) AS total_workout_sessions FROM WorkoutSessions;
 
-``
+```
 
 # Tables will be removed after operation (main.py) is run after 1 minute.
 # This is done so that a blank start can be used for when you execute and won't keep my populated table.
